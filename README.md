@@ -2,10 +2,6 @@
 
 An intelligent content optimization platform that helps content creators improve their SEO scores using AI-powered analysis and recommendations.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-green.svg)
-![React](https://img.shields.io/badge/react-18.2.0-blue.svg)
-
 ## 🚀 Features
 
 - **AI-Powered SEO Analysis**: Get comprehensive SEO scores and recommendations using OpenAI GPT
@@ -193,17 +189,7 @@ npm start
 | `PORT` | Server port (default: 5000) |
 | `NODE_ENV` | Environment (development/production) |
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
@@ -212,6 +198,4 @@ This project is licensed under the MIT License.
 - [MongoDB Atlas](https://www.mongodb.com/atlas) for database hosting
 - [Lucide Icons](https://lucide.dev/) for beautiful icons
 
----
 
-Made with ❤️ by Your Name
