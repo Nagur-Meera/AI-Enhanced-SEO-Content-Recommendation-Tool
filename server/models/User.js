@@ -33,7 +33,6 @@ const userSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Index for faster queries
-userSchema.index({ email: 1 });
+// Note: email index is automatically created by unique: true
 
 module.exports = mongoose.model('User', userSchema);

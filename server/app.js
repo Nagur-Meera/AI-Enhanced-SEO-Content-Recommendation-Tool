@@ -32,6 +32,15 @@ app.use('/api/content', contentRoutes);
 app.use('/api/seo', seoRoutes);
 app.use('/api/revisions', revisionRoutes);
 
+// Root route - for Render health checks
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'AI-Enhanced SEO Content Tool API',
+    docs: '/api'
+  });
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({
